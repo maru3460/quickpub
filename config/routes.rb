@@ -6,9 +6,9 @@ Rails.application.routes.draw do
       req.original_url.last != "/"
     }
 
-  # All requests to `/react/*` are handled by ReactController#show.
-  match "react", to: "react#show", via: :all
-  get "react/*path", to: "react#show"
+  # All requests to `/react/*` are handled by Gui::ReactController#show.
+  match "react", to: "gui/react#show", via: :all
+  get "react/*path", to: "gui/react#show"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

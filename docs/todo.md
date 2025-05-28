@@ -2,9 +2,10 @@
 
 ## 短期
 
-- rails new
-- react-router-rails-spa gem の導入
-- install して動作確認
+- 最初のページのカスタマイズ
+- いらないファイルとか削除
+- rspec+factorybot?の導入
+- rubocop+biome の導入
 
 ---
 
