@@ -1,12 +1,16 @@
+import type React from "react"
 import { Welcome } from "../welcome/welcome"
 
-export function meta() {
+const meta = () => {
   return [
     { title: "New React Router on Rails App" },
     { name: "description", content: "Welcome to React Router on Rails!" },
   ]
 }
 
-export default function Home() {
+const Home: React.FC = () => {
   return <Welcome />
 }
+
+export { meta }
+export default Home

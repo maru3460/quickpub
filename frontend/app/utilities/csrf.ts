@@ -44,7 +44,9 @@
 
 const CSRF_TOKEN_REGEX = /X-CSRF-Token=([^;]+)/
 
-export function getCSRFToken() {
+const getCSRFToken = (): string => {
   const token = document.cookie.match(CSRF_TOKEN_REGEX)?.[1] || ""
   return token
 }
+
+export { getCSRFToken }

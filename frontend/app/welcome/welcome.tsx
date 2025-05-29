@@ -1,8 +1,9 @@
+import type React from "react"
 import logoDark from "./logo-dark.svg"
 import logoLight from "./logo-light.svg"
 import railsLogo from "./rails-logo.svg"
 
-export function Welcome() {
+const Welcome: React.FC = () => {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center min-h-0">
@@ -50,6 +51,8 @@ export function Welcome() {
     </main>
   )
 }
+
+export { Welcome }
 
 const resources = [
   {

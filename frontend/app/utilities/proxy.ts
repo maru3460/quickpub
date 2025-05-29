@@ -35,10 +35,12 @@
  *     }).then(...)....
  *
  * * */
-export function baseApiPath() {
+const baseApiPath = (): string => {
   if (import.meta.env.MODE === "development") {
     return "/api"
   }
 
   return ""
 }
+
+export { baseApiPath }
