@@ -1,13 +1,12 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Welcome } from "../welcome/welcome"
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
   return [
     { title: "New React Router on Rails App" },
     { name: "description", content: "Welcome to React Router on Rails!" },
-  ];
+  ]
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <Welcome />
 }

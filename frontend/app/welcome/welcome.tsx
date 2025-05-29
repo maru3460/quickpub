@@ -1,6 +1,6 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
-import railsLogo from "./rails-logo.svg";
+import logoDark from "./logo-dark.svg"
+import logoLight from "./logo-light.svg"
+import railsLogo from "./rails-logo.svg"
 
 export function Welcome() {
   return (
@@ -21,11 +21,7 @@ export function Welcome() {
           </div>
           <div className="text-5xl text-gray-500 font-bold">on</div>
           <div className="text-red-500 w-[300px]">
-            <img
-              src={railsLogo}
-              alt="Ruby on Rails"
-              className="block w-full"
-            />
+            <img src={railsLogo} alt="Ruby on Rails" className="block w-full" />
           </div>
         </header>
         <div className="mt-12 text-2xl text-gray-600">with the</div>
@@ -52,7 +48,7 @@ export function Welcome() {
         </div>
       </div>
     </main>
-  );
+  )
 }
 
 const resources = [
@@ -72,4 +68,4 @@ const resources = [
     href: "https://rubyonrails.org/",
     text: "Read the Ruby on Rails Docs",
   },
-];
+]
