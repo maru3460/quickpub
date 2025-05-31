@@ -1,5 +1,5 @@
 import type React from "react"
-import Home from "~/home/home"
+import { Welcome } from "../welcome/welcome"
 
 const meta = () => {
   return [
@@ -8,9 +8,9 @@ const meta = () => {
   ]
 }
 
-const HomeRoute: React.FC = () => {
-  return <Home />
+const WelcomeRoute: React.FC = () => {
+  return <Welcome />
 }
 
 export { meta }
-export default HomeRoute
+export default WelcomeRoute
