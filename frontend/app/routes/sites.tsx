@@ -1,5 +1,5 @@
 import type React from "react"
-import Home from "~/home/home"
+import Sites from "~/pages/Sites/Sites"
 
 const meta = () => {
   return [
@@ -8,9 +8,9 @@ const meta = () => {
   ]
 }
 
-const HomeRoute: React.FC = () => {
-  return <Home />
+const SitesRoute: React.FC = () => {
+  return <Sites />
 }
 
 export { meta }
-export default HomeRoute
+export default SitesRoute

@@ -1,5 +1,5 @@
 import type React from "react"
-import { Welcome } from "../welcome/welcome"
+import { Welcome } from "../pages/Welcome/Welcome"
 
 const meta = () => {
   return [
