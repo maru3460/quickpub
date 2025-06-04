@@ -25,10 +25,15 @@
       },
       "style": {
         "useNamingConvention": "off",
-        "noDefaultExport": "off"
+        "noDefaultExport": "off",
+        "useFilenamingConvention": "off"
       },
       "correctness": {
-        "useImportExtensions": "off"
+        "useImportExtensions": "off",
+        "noUndeclaredDependencies": "off"
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "off"
       }
     }
   },
