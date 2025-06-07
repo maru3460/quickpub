@@ -1,7 +1,7 @@
 import type React from "react"
 import { useState } from "react"
-import Header from "./Header"
-import Sidebar from "./Sidebar"
+import Header from "./Header/Header"
+import Sidebar from "./Sidebar/Sidebar"
 
 const Home: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false)

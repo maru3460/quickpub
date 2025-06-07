@@ -1,7 +1,7 @@
 import { Plus } from "lucide-react"
 import type React from "react"
 import { Button } from "~/components/ui/button"
-import SidebarButton from "./Sidebar/SidebarButton"
+import SidebarButton from "../Sidebar/SidebarButton"
 
 interface IHeaderProps {
   toggleSidebarOpen: () => void
@@ -17,7 +17,7 @@ const Header: React.FC<IHeaderProps> = ({ toggleSidebarOpen }) => (
         </h1>
       </div>
 
-      <Button className="flex items-center gap-2">
+      <Button className="flex items-center gap-3">
         <Plus className="h-4 w-4" />
         新規作成
       </Button>
