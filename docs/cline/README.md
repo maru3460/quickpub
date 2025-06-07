@@ -13,6 +13,7 @@
 - https://qiita.com/tomada/items/635c2964f011af89b08c
 - https://zenn.dev/aldagram_tech/articles/alda-clinerules
 - https://zenn.dev/watany/articles/85af6cfb8dccb2
+- https://zenn.dev/mizchi/articles/typescript-for-cline
 
 ## 公式
 

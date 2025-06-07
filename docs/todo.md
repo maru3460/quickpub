@@ -1,18 +1,14 @@
 # todo
 
-## 短期
-
-- 最初のページのカスタマイズ
-- いらないファイルとか削除
-- rspec+factorybot?の導入
-- rubocop+biome の導入
-
----
-
-## 中期
-
 - site+content の crud
 - ローカルでドメイン使えるようにする
-- devise と user の導入
+- 公開可能にする
+- デプロイ
+- devise と user の導入、認証機能
+- 管理者画面の追加
 
----
+## 気が向いた時に
+
+- 最初のページのカスタマイズ
+- rspec+factorybot?の導入
+- rubocop の導入
