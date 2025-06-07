@@ -7,11 +7,6 @@
 
 .clinerules の役割は「事前コンテキストの提供」に限定し、必要最低限の記載にする
 
-## todo
-
-- 以下をもとに改善する
-  https://docs.anthropic.com/ja/docs/build-with-claude/prompt-engineering/claude-4-best-practices
-
 ## 参考
 
 - https://github.com/mizchi/ailab
