@@ -7,7 +7,7 @@ class CreateSites < ActiveRecord::Migration[8.0]
 
       t.timestamps
     end
-    
+
     add_index :sites, :subdomain, unique: true
   end
 end
