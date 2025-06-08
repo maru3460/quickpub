@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   # API routes
   namespace :api do
     resources :sites
+    resources :contents
   end
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
