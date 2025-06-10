@@ -9,6 +9,8 @@
     "typecheck": "react-router typegen && tsc",
     "format": "npx @biomejs/biome format --write ./app",
     "lint": "npx @biomejs/biome check --write ./app",
+    "test": "vitest",
+    "test:run": "vitest run",
     "prepare": "cd .. && husky frontend/.husky"
   },
   "dependencies": {
@@ -33,12 +35,14 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
     "lint-staged": "^16.1.0",
     "tailwindcss": "^4.1.4",
     "tw-animate-css": "^1.3.2",
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.3"
   },
   "lint-staged": {
     "app/**/*.{js,jsx,ts,tsx}": [
