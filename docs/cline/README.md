@@ -14,6 +14,7 @@
 - https://zenn.dev/aldagram_tech/articles/alda-clinerules
 - https://zenn.dev/watany/articles/85af6cfb8dccb2
 - https://zenn.dev/mizchi/articles/typescript-for-cline
+- https://gist.github.com/ookam/ca24fb1087d7c43323dd066babe7f59a
 
 ## 公式
 
